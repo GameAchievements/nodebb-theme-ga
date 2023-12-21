@@ -1,7 +1,18 @@
 {
-    "name": "nodebb-theme-quickstart",
+    "name": "nodebb-theme-ga",
     "version": "0.1.0",
-    "description": "Enter a description here",
+    "description": "Game Achievements NodeBB theme",
+    "author": {
+        "name": "Game Achievements",
+        "email": "webdev@gameachievements.net"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/GameAchievements/nodebb-theme-ga"
+    },
+    "bugs": {
+        "url": "https://github.com/GameAchievements/nodebb-theme-ga/issues"
+    },
     "main": "theme.less",
     "keywords": [],
     "license": "MIT",

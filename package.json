@@ -1,7 +1,7 @@
 {
     "name": "nodebb-theme-ga",
-    "version": "0.1.0",
-    "description": "Game Achievements NodeBB theme",
+    "version": "1.0",
+    "description": "Game Achievements NodeBB Theme",
     "author": {
         "name": "Game Achievements",
         "email": "webdev@gameachievements.net"
@@ -10,10 +10,7 @@
         "type": "git",
         "url": "https://github.com/GameAchievements/nodebb-theme-ga"
     },
-    "bugs": {
-        "url": "https://github.com/GameAchievements/nodebb-theme-ga/issues"
-    },
-    "main": "theme.less",
+    "main": "lib/theme.js",
     "keywords": [],
     "license": "MIT",
     "husky": {
@@ -29,7 +26,6 @@
         ]
     },
     "dependencies": {
-        "bent": "^7.3.12"
     },
     "devDependencies": {
         "@commitlint/cli": "11.0.0",

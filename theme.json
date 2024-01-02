@@ -2,6 +2,6 @@
     "id": "nodebb-theme-ga",
     "name": "Game Achievements Theme",
     "description": "Game Achievements NodeBB Theme",
-    "url": "https://github.com/nodebb/nodebb-theme-quickstart",
+    "url": "https://github.com/GameAchievements/nodebb-theme-ga",
     "baseTheme": "nodebb-theme-harmony"
 }

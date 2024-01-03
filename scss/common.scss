@@ -1,5 +1,6 @@
 body {
 	background-color: #030922;
+	font-family: Gantari,sans-serif;
 }
 
 .border-ga {
@@ -12,4 +13,49 @@ body {
 
 .bg-gradient-ga {
 	background: linear-gradient(#0B1041, #030922);
+}
+
+.title {
+	color: #FFFFFF;
+	font-size: 24px;
+	font-weight: 600;
+	line-height: 29px;
+	letter-spacing: 0.06em;
+}
+
+.description {
+	color: #B5BEFF;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 24px;
+	letter-spacing: 0em;
+}
+
+.category-children {
+	display: none;
+}
+
+.categories-list .stats {
+	color: #FFFFFF;
+}
+
+.categories-list .stats .topic-count, .categories-list .stats .post-count{
+	font-size: 24px;
+	font-size: 24px;
+	font-weight: 600;
+	line-height: 29px;
+	letter-spacing: 0.06em;
+}
+
+.categories-list .stats .topic-count-label, .categories-list .stats .post-count-label{
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 24px;
+	letter-spacing: 0em;
+}
+
+.lastpost {
+	border-left: 4px solid;
+	border-image: linear-gradient(#4659FF, #191F59);
+	border-image-slice: 1;
 }

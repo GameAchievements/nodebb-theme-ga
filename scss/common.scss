@@ -39,20 +39,23 @@ body {
 	color: #FFFFFF;
 }
 
-.categories-list .stats .topic-count, .categories-list .stats .post-count{
-	font-size: 24px;
-	font-size: 24px;
-	font-weight: 600;
-	line-height: 29px;
-	letter-spacing: 0.06em;
-}
+.categories-list .stats {
 
-.categories-list .stats .topic-count-label, .categories-list .stats .post-count-label{
-	font-size: 16px;
-	font-weight: 400;
-	line-height: 24px;
-	letter-spacing: 0em;
-}
+	.topic-count, .post-count {
+		font-size: 24px;
+		font-size: 24px;
+		font-weight: 600;
+		line-height: 29px;
+		letter-spacing: 0.06em;
+	}
+
+	.topic-count-label, .post-count-label {
+		font-size: 16px;
+		font-weight: 400;
+		line-height: 24px;
+		letter-spacing: 0em;
+	}
+} 
 
 .lastpost {
 	border-left: 4px solid;

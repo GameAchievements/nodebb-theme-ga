@@ -1,2 +1,5 @@
+// override harmony font-path
+$font-path: "./plugins/nodebb-theme-ga";
+
 @import "../nodebb-theme-harmony/theme";
 @import "scss/common.scss";

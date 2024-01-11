@@ -16,6 +16,12 @@ $gray-800: #343a40 !default;
 $gray-900: #212529 !default;
 $black:    #000 !default;
 
+// GA colours
+$purple-200: #B5BEFF !default;
+$purple-600: #717FFF !default;
+$purple-700: #4659FF !default;
+$purple-900: #030922 !default;
+
 $blue:    #0d6efd !default;
 $red:     #dc3545 !default;
 $yellow:  #ffc107 !default;
@@ -31,9 +37,11 @@ $danger:        $red !default;
 $light:         $gray-100 !default;
 $dark:          $gray-900 !default;
 
-$body-color: $gray-800 !default;
+/* $body-color: $gray-800 !default; */
+$body-color: $purple-200 !default;
 $body-bg: $white !default;
-$body-tertiary-bg: $gray-200 !default;
+/* $body-tertiary-bg: $gray-200 !default; */
+$body-tertiary-bg: $purple-200 !default;
 $text-muted: $gray-600 !default;
 $border-color: $gray-200 !default;
 $link-color: shade-color($blue, 20%) !default;
@@ -76,4 +84,50 @@ $breadcrumb-item-padding-x: 12px !default;
 
 .form-control::placeholder, .bootstrap-tagsinput::placeholder {
 	color: $gray-500 !important;
+}
+
+
+.text-ga-purple-200 {
+	color: $purple-200
+}
+
+//styleName: Gantari/Headings/H2/Semibold;
+.ga-header-2 {
+	font-size: 52px;
+	font-weight: 600;
+	line-height: 62px;
+	letter-spacing: 0.08em;
+}
+
+//styleName: Gantari/Headings/H4/Bold;
+.ga-header-4-bold {
+	font-size: 32px;
+	font-weight: 700;
+	line-height: 38px;
+	letter-spacing: 0.06em;
+}
+
+//styleName: Gantari/Headings/H4/Regular;
+.ga-header-4-regular {
+	font-size: 32px;
+	font-weight: 400;
+	line-height: 38px;
+	letter-spacing: 0.06em;
+}
+
+//styleName: Gantari/Button/Bold;
+.ga-hero-button {
+	width: Hug(224px);
+	height: Hug(51px);
+	padding: 16px;
+	border-radius: 100px;
+	gap: 8px;
+	font-size: 16px;
+	font-weight: 700;
+	line-height: 19px;
+	letter-spacing: 1px;
+	text-align: center;
+	text-transform: uppercase;
+	color: white;
+	background-color: $purple-700;
 }

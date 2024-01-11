@@ -15,5 +15,7 @@
 */
 
 $(document).ready(function () {
-	// Your code goes here
+	$('.join-button').click(function () {
+		window.location = '/login';
+	});
 });

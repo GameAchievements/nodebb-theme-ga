@@ -40,8 +40,8 @@
                             <li><a href="https://gameachievements.net/privacy-policy">Our Privacy Policy</a></li>
                             <li><a href="https://gameachievements.net/terms-of-use">Terms Of Use</a></li>
                             <li><a href="#">Follow Us</a></li>
-                            <li class="nested"><a class="secondary-link" href="https://twitter.com/G_Achievements"><i class="fa fa-twitter" aria-hidden="true"></i>Twitter</a></li>
-                            <li class="nested"><a class="secondary-link" href="https://www.instagram.com/GAchievements/"><i class="fa fa-instagram" aria-hidden="true"></i>Instagram</a></li>
+                            <li class="nested"><a class="secondary-link" href="https://twitter.com/G_Achievements"><i class="fa fa-twitter" aria-hidden="true"></i> Twitter</a></li>
+                            <li class="nested"><a class="secondary-link" href="https://www.instagram.com/GAchievements/"><i class="fa fa-instagram" aria-hidden="true"></i> Instagram</a></li>
                             <li><a href="mailto:contact@gameachievements.net?subject=%5BSite%20Contact%5D">Contact Us</a></li>
                         </ul>
                     </div>

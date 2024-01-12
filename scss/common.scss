@@ -75,3 +75,58 @@ body {
 .hero-container {
 	gap: 20px;
 }
+
+
+/* 
+	GA Footer Styling
+*/
+.ga-footer {
+
+	#footer-logo {
+		width: 289px;
+		height: auto;
+	}
+
+	ul {
+		list-style: none;
+	}
+
+	ul li {
+		margin-top: 20px;
+	}
+
+	ul li.nested {
+		margin-top: 8px;
+	}
+
+	a {
+		color: white;
+		font-size: 16px;
+		font-weight: 700;
+		line-height: 19px;
+		letter-spacing: 0.04em;
+		text-transform: uppercase;
+		text-decoration: none;
+		transition: all 0.4s linear;
+	}
+
+	a:hover, a:focus {
+		color: $purple-200;
+	}
+
+	a.secondary-link {
+		color: $purple-200;
+		font-size: 14px;
+		font-weight: 400;
+		line-height: 20px;
+		letter-spacing: 0.08em;
+	}
+
+	.copyright-text {
+		//styleName: Gantari/Caption/Regular;
+		font-size: 12px;
+		font-weight: 400;
+		line-height: 18px;
+		letter-spacing: 0em;
+	}
+}

@@ -3,7 +3,7 @@
 
 	<div class="d-flex col-lg-7 gap-2 gap-lg-3 align-content-center">
 		<div class="flex-shrink-0 my-auto">
-		{buildCategoryIcon(@value, "40px", "rounded-1")}
+		{buildCategoryIcon(@value, "96px", "rounded-1")}
 		</div>
 		<div class="flex-grow-1 d-flex flex-wrap gap-1">
 			<h2 class="title text-break text-uppercase fs-4 fw-semibold m-0 tracking-tight w-100">

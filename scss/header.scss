@@ -1,0 +1,27 @@
+// hide brand/title on user and group details pages so it doesnt break covers
+.page-user, .template-groups-details {
+	.brand-container {
+		display: none;
+	}
+}
+[component="brand/wrapper"] {
+	&:hover {
+		background-color: $card-cap-bg;
+	}
+}
+
+[component="brand/logo"] {
+	max-height: 48px;
+	width: auto;
+}
+
+[component="brand/wrapper-ga"] {
+	&:hover {
+		background-color: none;
+	}
+}
+
+[component="brand/logo-ga"] {
+	max-height: 32px;
+	width: auto;
+}

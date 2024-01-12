@@ -54,7 +54,6 @@
             </div>
 
 		</main>
-		<!-- IMPORT partials/sidebar-right.tpl -->
 	</div>
 	<!-- IMPORT partials/mobile-footer.tpl -->
 	{{{ if !isSpider }}}

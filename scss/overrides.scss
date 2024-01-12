@@ -18,7 +18,7 @@ $black:    #000 !default;
 
 // GA colours
 $purple-200: #B5BEFF !default;
-$purple-600: #717FFF !default;
+$purple-400: #717FFF !default;
 $purple-700: #4659FF !default;
 $purple-900: #030922 !default;
 
@@ -38,14 +38,17 @@ $light:         $gray-100 !default;
 $dark:          $gray-900 !default;
 
 /* $body-color: $gray-800 !default; */
-$body-color: $purple-200 !default;
 $body-bg: $white !default;
 /* $body-tertiary-bg: $gray-200 !default; */
+/* $border-color: $gray-200 !default; */
+
+$body-color: $purple-200 !default;
+/* $body-bg: $purple-900 !default; */
 $body-tertiary-bg: $purple-200 !default;
 $text-muted: $gray-600 !default;
-$border-color: $gray-200 !default;
-$link-color: shade-color($blue, 20%) !default;
+$border-color: $purple-700 !default;
 
+$link-color: shade-color($blue, 20%) !default;
 $btn-ghost-hover-color: mix($light, $dark, 90%);
 $btn-ghost-active-color: lighten($btn-ghost-hover-color, 5%);
 $btn-ghost-hover-color-dark: mix($dark, $light, 90%);

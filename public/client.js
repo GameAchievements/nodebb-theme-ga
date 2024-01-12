@@ -15,7 +15,4 @@
 */
 
 $(document).ready(function () {
-	$('.join-button').click(function () {
-		window.location = '/login';
-	});
 });

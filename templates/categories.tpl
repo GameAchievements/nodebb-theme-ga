@@ -13,7 +13,7 @@
         <span>
 		{{{ if !config.loggedIn }}}
 		<div class="text-center">
-        	<button type="button" class="ga-hero-button join-button mt-4 border-0">Join the community</button>
+        	<button type="button" class="ga-hero-button join-button mt-4 border-0" onclick="location.href='/login'">Join the community</button>
 		</div>
 		{{{ end }}}
     </div>

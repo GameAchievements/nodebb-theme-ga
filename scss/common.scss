@@ -116,10 +116,14 @@ body {
 	gap: 20px;
 }
 
+.hero-topic {
+	height: 180px;
+	background-image: url(/plugins/nodebb-theme-ga/images/ga-hero-gradient.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
 
-/* 
-	GA Footer Styling
-*/
+/* 	Footer Styling */
 .ga-footer {
 
 	#footer-logo {

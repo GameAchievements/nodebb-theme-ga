@@ -53,10 +53,23 @@ $text-muted: $gray-600 !default;
 $border-color: $purple-700 !default;
 
 $link-color: shade-color($blue, 20%) !default;
-$btn-ghost-hover-color: mix($light, $dark, 90%);
+$btn-ghost-hover-color: $purple-700;
+/* $btn-ghost-hover-color: mix($light, $dark, 90%); */
 $btn-ghost-active-color: lighten($btn-ghost-hover-color, 5%);
 $btn-ghost-hover-color-dark: mix($dark, $light, 90%);
 $btn-ghost-active-color-dark: lighten($btn-ghost-hover-color-dark, 5%);
+
+
+$dropdown-link-hover-bg: $purple-400 !default;
+
+/*
+$navbar-active-color: $purple-200 !default;
+$nav-link-hover-color: $purple-200 !default;
+*/
+
+.navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
+	color: $white !important;
+}
 
 :root {
 	--btn-ghost-hover-color: #{$btn-ghost-hover-color};
@@ -66,6 +79,7 @@ $btn-ghost-active-color-dark: lighten($btn-ghost-hover-color-dark, 5%);
 	--btn-ghost-hover-color: #{$btn-ghost-hover-color-dark};
 	--btn-ghost-active-color: #{$btn-ghost-active-color-dark};
 }
+
 
 // no caret on dropdown-toggle
 $enable-caret: false;

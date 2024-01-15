@@ -182,12 +182,17 @@ body {
 
 /* Topic styling */
 
+.ga-toolbar {
+	background-color: $purple-800 !important;
+	color: $white !important;
+}
 
 /* Quotes */ 
 
 blockquote {
 	background-color: $purple-800 !important;
 	color: $white !important;
+	border-left: solid 2px $purple-700;
 }
 
 /* Quick Reply styles */

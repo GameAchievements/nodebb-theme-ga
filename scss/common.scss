@@ -123,7 +123,9 @@ body {
 	background-size: cover;
 }
 
-/* 	Footer Styling */
+
+/* Global Footer */
+
 .ga-footer {
 
 	#footer-logo {
@@ -205,4 +207,34 @@ blockquote {
 
 .composer-container i {
 	color: $purple-200;
+}
+
+/* Left Sidebar */
+
+.skin-noskin nav.sidebar {
+	background-color: $purple-800 !important;
+}
+
+.sidebar .nav-item a:hover {
+	background-color: $purple-200;
+}
+
+.sidebar .nav-link {
+	color: $white;
+}
+
+.sidebar .nav-link.active {
+	background-color: $purple-400;
+}
+
+.sidebar-left-ga {
+	position: fixed;
+	top: 100px;
+	border-width: 1px 1px 1px 0px;
+	border-style: solid;
+	border-color: $purple-700;
+	border-top-right-radius: 10px;
+	border-bottom-right-radius: 10px;
+	height: auto !important;
+	color: $white;
 }

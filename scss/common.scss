@@ -238,3 +238,34 @@ blockquote {
 	height: auto !important;
 	color: $white;
 }
+
+/* Login */
+.template-login #content {
+	background-image: url(/plugins/nodebb-theme-ga/images/ga-hero-gradient.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding-top: 10px;
+	padding-bottom: 40px;
+}
+
+.template-login label {
+	text-transform: uppercase;
+	color: $purple-400;
+	font-size: 16px;
+	font-weight: 700;
+	line-height: 19px;
+	letter-spacing: 0.04em;
+}
+
+.template-login h2 {
+	text-transform: uppercase;
+	font-size: 28px;
+	font-weight: 700;
+	line-height: 34px;
+	letter-spacing: 0.08em;
+}
+
+#login-logo {
+	width: 310.4px;
+	height: auto;
+}

@@ -4,7 +4,7 @@
             <div class="container-lg d-flex flex-column gap-3 ga-footer">
                 <div class="row text-center mb-2">
                     <div class="col-12">
-                        <a href="/"><img id="footer-logo" src="/plugins/nodebb-theme-ga/images/footer-logo.png" alt="GA Footer Logo"></a>
+                        <a href="/"><img id="footer-logo" src="/plugins/nodebb-theme-ga/images/footer-logo.png" alt="GA Footer Logo"/></a>
                     </div>
                 </div>
                 <div class="row px-md-5">

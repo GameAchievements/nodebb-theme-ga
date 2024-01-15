@@ -6,9 +6,9 @@
 <div class="container-fluid hero-main align-items-center">
     <div class="hero-container p-5">
         <h2 class="ga-header-2 text-uppercase text-white">Game Achievements</h1>
-        <h2 class="ga-header-2 text-ga-purple-200 text-uppercase">Official Forums</h1>
+        <h2 class="ga-header-2 text-purple-200 text-uppercase">Official Forums</h1>
         <h4 class="text-uppercase">
-            <span class="ga-header-4-regular text-white">Complete games, earn achievements and</span><span class="ga-header-4-bold"> join</br> the biggest gamer community in the world.</span>
+            <span class="ga-header-4-regular text-white">Complete games, earn achievements and</span><span class="ga-header-4-bold text-purple-200"> join</br> the biggest gamer community in the world.</span>
         </h3>
         <span>
 		{{{ if !config.loggedIn }}}

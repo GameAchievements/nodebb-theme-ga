@@ -170,3 +170,30 @@ body {
 		letter-spacing: 0em;
 	}
 }
+
+.tooltip-inner {
+	color: $white;
+}
+
+
+/* Topic styling */
+
+
+/* Quotes */ 
+
+blockquote {
+	background-color: $purple-800 !important;
+	color: $white !important;
+}
+
+/* Quick Reply styles */
+
+.composer-container {
+	background-color: $purple-800;
+	border: 1px;
+	border-color: $purple-700;
+}
+
+.composer-container i {
+	color: $purple-200;
+}

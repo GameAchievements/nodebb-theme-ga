@@ -20,6 +20,7 @@ $black:    #000 !default;
 $purple-200: #B5BEFF !default;
 $purple-400: #717FFF !default;
 $purple-700: #4659FF !default;
+$purple-800: #272A49 !default;
 $purple-900: #030922 !default;
 
 // GA gradients
@@ -45,7 +46,7 @@ $body-bg: $purple-900 !default;
 /* $body-tertiary-bg: $gray-200 !default; */
 /* $border-color: $gray-200 !default; */
 
-$body-color: $purple-200 !default;
+$body-color: $white !default;
 /* $body-bg: $purple-900 !default; */
 $body-tertiary-bg: $purple-200 !default;
 $text-muted: $gray-600 !default;

@@ -269,3 +269,11 @@ blockquote {
 	width: 310.4px;
 	height: auto;
 }
+
+/* Chats */
+@media (min-width: 992px) {
+	.chats-full {
+		padding-left: 40px;
+		padding-right: 40px;
+	}
+}

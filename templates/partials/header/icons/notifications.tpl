@@ -5,7 +5,9 @@
 			<span component="notifications/count" class="visible-closed position-absolute top-0 start-100 translate-middle badge rounded-1 bg-primary {{{ if !unreadCount.notification }}}hidden{{{ end }}}">{unreadCount.notification}</span>
 		</span>
 	</span>
+	<!--
 	<span component="notifications/count" class="visible-open badge rounded-1 bg-primary {{{ if !unreadCount.notification }}}hidden{{{ end }}}">{unreadCount.notification}</span>
+	-->
 </a>
 <ul class="notifications-dropdown dropdown-menu dropdown-menu-end p-1 shadow">
 	<li>

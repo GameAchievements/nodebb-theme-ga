@@ -1,5 +1,5 @@
 {{{ if (brand:logo || config.showSiteTitle)}}}
-<nav class="navbar navbar-expand-lg header-gradient-ga">
+<nav class="navbar navbar-expand-xxl header-gradient-ga">
   <div class="container-lg p-0">
     {{{ if brand:logo }}}
 			<a class="me-3 p-2" component="navbar-brand" href="{{{ if brand:logo:url }}}{brand:logo:url}{{{ else }}}{relative_path}/{{{ end }}}">

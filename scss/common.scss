@@ -131,6 +131,14 @@ body {
 	background-position: center;
 }
 
+.hero-user {
+	height: 160px;
+	background-image: url(/plugins/nodebb-theme-ga/images/ga-hero-gradient.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
 .hero-category {
 	height: Hug(196px);
 	background-image: url(/plugins/nodebb-theme-ga/images/ga-hero-gradient.png);
@@ -312,3 +320,16 @@ span.icon {
 	background-position: center;
 }
 */
+
+/* User Profile */
+.account {
+	margin-top: 0px;
+}
+
+.account .cover {
+	display: none;
+}
+
+.account-stats .stat .card, .user-header-container {
+	background-image: linear-gradient(180deg, #030922 50%, #0B1041 100%);
+}

@@ -44,6 +44,11 @@ body {
 	background: linear-gradient(180deg, #030922 0%, #0B1041 100%);
 }
 
+.search-dropdown, .bottom-bar .search-dropdown {
+	width: 320px;
+	left: 100% !important;
+}
+
 .button-gradient-ga {
 	border-bottom: 2px solid #4659FF;
 	background: linear-gradient(0deg, #4659FF -14.38%, rgba(25, 31, 89, 0.00) 84.51%);

@@ -256,12 +256,12 @@ blockquote {
 	background-color: $purple-200;
 }
 
-.sidebar .nav-link {
-	color: $white;
+.sidebar .nav-link.active {
+	background-color: $purple-400 !important;
 }
 
-.sidebar .nav-link.active {
-	background-color: $purple-400;
+.sidebar .nav-link {
+	color: $white;
 }
 
 .sidebar-left-ga {
@@ -337,4 +337,9 @@ span.icon {
 
 .account-stats .stat .card, .user-header-container {
 	background-image: linear-gradient(180deg, #030922 50%, #0B1041 100%);
+}
+
+// Hide user theme settings (user settings are ignored by theme config)
+#theme {
+	display: none;
 }

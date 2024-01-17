@@ -343,3 +343,16 @@ span.icon {
 #theme {
 	display: none;
 }
+
+/* Badges Styling */
+a.badge, .tag-list .tag, span.badge {
+	background-color: $purple-700 !important;
+	color: white;
+	border: 0 !important;
+	text-transform: uppercase;
+}
+
+a.timeago {
+	background-color: transparent !important;
+	color: $purple-250 !important;
+}

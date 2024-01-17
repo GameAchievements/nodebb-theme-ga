@@ -18,6 +18,7 @@ $black:    #000 !default;
 
 // GA colours
 $purple-200: #B5BEFF !default;
+$purple-300: #7687FF !default;
 $purple-400: #717FFF !default;
 $purple-700: #4659FF !default;
 $purple-800: #272A49 !default;
@@ -59,7 +60,6 @@ $btn-ghost-active-color: lighten($btn-ghost-hover-color, 5%);
 $btn-ghost-hover-color-dark: mix($dark, $light, 90%);
 $btn-ghost-active-color-dark: lighten($btn-ghost-hover-color-dark, 5%);
 
-
 $dropdown-link-hover-bg: $purple-400 !default;
 
 /*
@@ -79,6 +79,9 @@ $nav-link-hover-color: $purple-200 !default;
 	--btn-ghost-hover-color: #{$btn-ghost-hover-color-dark};
 	--btn-ghost-active-color: #{$btn-ghost-active-color-dark};
 }
+
+
+/* Pagination */
 
 
 // no caret on dropdown-toggle

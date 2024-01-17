@@ -4,6 +4,12 @@ body {
 	font-family: Gantari, sans-serif !important;
 }
 
+#panel {
+	// height: 100%;
+	// background-size: cover;	
+	background-image: linear-gradient(180deg, #030922 80%, #0B1041 100%);
+}
+
 .nav-link {
 	color: #eee;
 	font-size: 16px;
@@ -110,6 +116,7 @@ body {
 	background-image: url(/plugins/nodebb-theme-ga/images/ga-hero-gradient.png);
 	background-repeat: no-repeat;
 	background-size: cover;
+	background-position: center;
 }
 
 .hero-container {
@@ -121,6 +128,23 @@ body {
 	background-image: url(/plugins/nodebb-theme-ga/images/ga-hero-gradient.png);
 	background-repeat: no-repeat;
 	background-size: cover;
+	background-position: center;
+}
+
+.hero-category {
+	height: Hug(196px);
+	background-image: url(/plugins/nodebb-theme-ga/images/ga-hero-gradient.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+.hero-category-container {
+	//styleName: Gantari/Headings/H3/Semibold;
+	font-size: 40px;
+	font-weight: 600;
+	line-height: 48px;
+	letter-spacing: 0.06em;
 }
 
 
@@ -277,3 +301,14 @@ blockquote {
 		padding-right: 40px;
 	}
 }
+
+/* Category */
+/*
+span.icon {
+	width: 64px !important;
+	height: 95px !important;
+	border: solid 1px !important;
+	border-color: $purple-700 !important;
+	background-position: center;
+}
+*/

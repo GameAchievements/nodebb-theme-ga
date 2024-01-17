@@ -9,7 +9,7 @@
         <h2 class="ga-header-2 text-purple-200 text-uppercase">Official Forums</h1>
         <h4 class="text-uppercase">
             <span class="ga-header-4-regular text-white">Complete games, earn achievements and</span><span class="ga-header-4-bold text-purple-200"> join</br> the biggest gamer community in the world.</span>
-        </h3>
+        </h4>
         <span>
 		{{{ if !config.loggedIn }}}
 		<div class="text-center">

@@ -396,6 +396,7 @@ span.icon {
 }
 
 /* Badges Styling */
+
 a.badge, .tag-list .tag, span.badge {
 	background-color: $purple-700 !important;
 	color: white !important;
@@ -427,3 +428,62 @@ a.timeago {
 	background-color: transparent !important;
 	color: $purple-250 !important;
 }
+
+/* Category - Game */
+
+.hero-game {
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	background-blend-mode: multiply;
+}
+
+.game-header-3 {
+	//styleName: Gantari/Headings/H2/Semibold;
+	font-size: 52px;
+	font-weight: 600;
+	line-height: 62px;
+	letter-spacing: 0.08em;
+}
+
+.game-header-4 {
+	font-size: 27px;
+	font-weight: 700;
+	line-height: 41px;
+	letter-spacing: 0.15em;
+}
+
+/*
+.game-header-container {
+	padding-left: 80px;
+	padding-right: 80px;
+}
+*/
+
+.game-header-about{
+	//styleName: Gantari/Headings/H3/Regular;
+	font-size: 40px;
+	font-weight: 400;
+	line-height: 48px;
+	letter-spacing: 0.06em;
+}
+
+.game-header-name {
+	//styleName: Gantari/Headings/H3/Semibold;
+	font-size: 40px;
+	font-weight: 600;
+	line-height: 48px;
+	letter-spacing: 0.06em;
+	color: $purple-400
+}
+
+.game-header-container .description {
+	//styleName: Gantari/Body/Large/Regular;
+	font-size: 20px;
+	font-weight: 400;
+	line-height: 30px;
+	letter-spacing: 0.02em;
+	color:white;
+	text-align: justify;
+}
+

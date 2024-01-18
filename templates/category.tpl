@@ -1,18 +1,24 @@
-<div class="container-fluid hero-category align-items-center">
+<div class="container-fluid hero-category {{{ if (name == "Premium") }}} hero-premium {{{ end }}} align-items-center">
     <div class="hero-category-container p-5">
         <h3 class="ga-header-2 text-uppercase text-white">Game Achievements</h3>
-        <h3 class="ga-header-2 text-purple-200 text-uppercase">All the games, one forum.</h3>	
+		{{{ if (name == "Premium") }}}
+		<h3 class="ga-header-2 text-purple-400 text-uppercase">Premium Forums</h3> 
+		{{{ else }}}
+		<h3 class="ga-header-2 text-purple-200 text-uppercase">All the games, one forum.</h3>
+		{{{ end }}}
     </div>
 </div>
 
 <!-- IMPORT partials/breadcrumbs-json-ld.tpl -->
 <!-- IMPORT partials/breadcrumbs.tpl -->
 
-<div class="category-header d-flex flex-column gap-2">
+<div class="category-header d-flex flex-column gap-2 {{{ if (name == "Premium") }}}category-header-premium{{{ end }}}">
+	{{{ if (name != "Premium") }}}
 	<div class="d-flex gap-2 align-items-center mb-1 {{{ if config.theme.centerHeaderElements }}}justify-content-center{{{ end }}}">
 		{buildCategoryIcon(@value, "40px", "rounded-1 flex-shrink-0")}
 		<h1 class="tracking-tight fs-2 fw-semibold mb-0 text-center">{./name}</h1>
 	</div>
+	{{{ end }}}
 	{{{ if ./descriptionParsed }}}
 	<div class="description text-muted text-sm w-100 {{{ if config.theme.centerHeaderElements }}}text-center{{{ end }}}">
 		{./descriptionParsed}

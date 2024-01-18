@@ -120,7 +120,7 @@ body {
 
 .hero-main {
 	height: Hug(491px);
-	background-image: url(/plugins/nodebb-theme-ga/images/ga-hero-gradient.png);
+	background-image: url(/plugins/nodebb-theme-ga/images/ga-hero-gradient.webp);
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
@@ -132,7 +132,7 @@ body {
 
 .hero-topic {
 	height: 180px;
-	background-image: url(/plugins/nodebb-theme-ga/images/ga-hero-gradient.png);
+	background-image: url(/plugins/nodebb-theme-ga/images/ga-hero-gradient.webp);
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
@@ -140,7 +140,7 @@ body {
 
 .hero-user {
 	height: 160px;
-	background-image: url(/plugins/nodebb-theme-ga/images/ga-hero-gradient.png);
+	background-image: url(/plugins/nodebb-theme-ga/images/ga-hero-gradient.webp);
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
@@ -148,10 +148,14 @@ body {
 
 .hero-category {
 	height: Hug(196px);
-	background-image: url(/plugins/nodebb-theme-ga/images/ga-hero-gradient.png);
+	background-image: url(/plugins/nodebb-theme-ga/images/ga-hero-gradient.webp);
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
+}
+
+.hero-premium {
+	background-image: url(/plugins/nodebb-theme-ga/images/ga-hero-premium.webp);
 }
 
 .hero-category-container {
@@ -256,6 +260,23 @@ a[data-username], a[component="post/parent"], .timeline-text a, a.plugin-mention
 	background-color: $purple-700 !important;
 }
 
+.category-header-premium {
+	padding-top: 20px;
+	border-top: 4px solid;
+	/* border-image: linear-gradient(90deg, #4659FF, #191F59); */
+	border-image: linear-gradient(270deg, rgba(70, 89, 255, 0) 0%, #4659FF 100.94%);
+	border-image-slice: 1;
+}
+
+.category-header-premium .description {
+	color: $purple-400 !important;
+	text-transform: uppercase;	
+	font-size: 20px;
+	font-weight: 600;
+	line-height: 24px;
+	letter-spacing: 0.06em;
+}
+
 /* Quotes */ 
 
 blockquote {
@@ -308,7 +329,7 @@ blockquote {
 
 /* Login */
 .template-login #content {
-	background-image: url(/plugins/nodebb-theme-ga/images/ga-hero-gradient.png);
+	background-image: url(/plugins/nodebb-theme-ga/images/ga-hero-gradient.webp);
 	background-repeat: no-repeat;
 	background-size: cover;
 	padding-top: 10px;

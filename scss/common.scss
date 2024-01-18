@@ -95,6 +95,7 @@ body {
 .categories-list .stats {
 
 	.topic-count, .post-count {
+		color: $white;
 		font-size: 24px;
 		font-size: 24px;
 		font-weight: 600;
@@ -103,6 +104,7 @@ body {
 	}
 
 	.topic-count-label, .post-count-label {
+		color: $white;
 		font-size: 16px;
 		font-weight: 400;
 		line-height: 24px;
@@ -226,6 +228,34 @@ body {
 	color: $white !important;
 }
 
+.ga-toolbar i, /* .ga-toolbar i.fa-rss, */ .post-footer i {
+	color: $purple-250 !important;
+}
+
+[component="topic/header"], span.topic-title {
+	font-size: 24px;
+	font-weight: 600;
+	line-height: 29px;
+	letter-spacing: 0.06em;
+	text-transform: uppercase;
+	color: $purple-250;
+}
+
+a[data-username], a[component="post/parent"], .timeline-text a, a.plugin-mentions-a {
+	color: $white;
+	text-decoration: underline;
+	/* text-transform: uppercase; */
+}
+
+[component="post/content"] a[href^="/post"] {
+	color: $purple-250;
+	text-transform: uppercase;
+}
+
+.scroller-thumb-icon {
+	background-color: $purple-700 !important;
+}
+
 /* Quotes */ 
 
 blockquote {
@@ -347,9 +377,29 @@ span.icon {
 /* Badges Styling */
 a.badge, .tag-list .tag, span.badge {
 	background-color: $purple-700 !important;
-	color: white;
+	color: white !important;
 	border: 0 !important;
 	text-transform: uppercase;
+}
+
+span[component="topic/labels"] span.badge {
+	border: solid 1px !important;
+	border-color: $purple-700 !important;
+	color: $purple-700 !important;
+	background-color: transparent !important;
+}
+
+span.stats {
+	border: 0 !important;
+	background-color: transparent !important;
+}
+
+span.badge span {
+	text-transform: uppercase !important;
+}
+
+a.badge i {
+	color: $white;
 }
 
 a.timeago {

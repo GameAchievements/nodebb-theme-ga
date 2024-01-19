@@ -297,6 +297,10 @@ blockquote {
 	background-color: $purple-800;
 	border: 1px;
 	border-color: $purple-700;
+	left: 0;
+	right: 0;
+	width: auto;
+	position: fixed;
 }
 
 .composer-container i {

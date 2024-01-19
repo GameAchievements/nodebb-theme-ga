@@ -493,3 +493,36 @@ a.timeago {
 	text-align: justify;
 }
 
+/* Notifications, Chats */
+
+.notifications-dropdown, .chats-dropdown {
+	border-radius: 8px;
+	border-color: $purple-700;
+	padding: 10px !important;
+}
+
+.mark-all-read-btn {
+	padding: 8px;
+	border-radius: 20px;
+	color: $white !important;
+	background-color: transparent !important;
+	border-color: $purple-700 !important;
+  }
+
+  .mark-all-read-btn:hover {
+	background-color: shade-color($purple-700, 10%) !important;
+	/* border-color: shade-color($purple-700, 10%) !important; */
+  }
+
+  .all-notifications-btn, .chats-btn {
+	padding: 8px;
+	border-radius: 20px;
+	color: $white !important;
+	background-color: $purple-700 !important;
+  }
+
+  .all-notifications-btn:hover, .chats-btn:hover {
+	background-color: shade-color($purple-700, 10%) !important;
+  }
+  
+

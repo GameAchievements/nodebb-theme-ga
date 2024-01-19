@@ -43,8 +43,8 @@
 	<li class="dropdown-divider"></li>
 	<li>
 		<div class="d-flex justify-content-center gap-1 flex-wrap">
-			<a role="button" href="#" class="btn btn-sm btn-light mark-all-read flex-fill text-nowrap text-truncate ff-secondary"><i class="fa fa-check-double"></i> [[notifications:mark-all-read]]</a>
-			<a class="btn btn-sm btn-primary flex-fill text-nowrap text-truncate ff-secondary" href="{relative_path}/notifications"><i class="fa fa-list"></i> [[notifications:see-all]]</a>
+			<a role="button" href="#" class="btn btn-sm btn-light mark-all-read mark-all-read-btn flex-fill text-nowrap text-truncate ff-secondary"><i class="fa fa-check-double"></i> [[notifications:mark-all-read]]</a>
+			<a class="btn btn-sm flex-fill text-nowrap text-truncate ff-secondary all-notifications-btn" href="{relative_path}/notifications"><i class="fa fa-list"></i> [[notifications:see-all]]</a>
 		</div>
 	</li>
 </ul>

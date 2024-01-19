@@ -173,3 +173,14 @@ $breadcrumb-item-padding-x: 12px !default;
 	background-color: $purple-700;
 }
 
+
+button.btn-primary {
+	padding: 8px !important;
+	border-radius: 20px !important;
+	color: $white !important;
+	background-color: $purple-700 !important;
+  }
+
+  button.btn-primary:hover {
+	background-color: shade-color($purple-700, 10%) !important;
+  }

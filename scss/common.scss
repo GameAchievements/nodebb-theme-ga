@@ -261,7 +261,7 @@ a[data-username], a[component="post/parent"], .timeline-text a, a.plugin-mention
 }
 
 .category-header-premium {
-	padding-top: 20px;
+	padding-top: 10px;
 	border-top: 4px solid;
 	/* border-image: linear-gradient(90deg, #4659FF, #191F59); */
 	border-image: linear-gradient(270deg, rgba(70, 89, 255, 0) 0%, #4659FF 100.94%);
@@ -275,6 +275,7 @@ a[data-username], a[component="post/parent"], .timeline-text a, a.plugin-mention
 	font-weight: 600;
 	line-height: 24px;
 	letter-spacing: 0.06em;
+	margin-bottom: 10px;
 }
 
 /* Quotes */ 

@@ -10,6 +10,9 @@
 <div class="container-fluid hero-topic align-items-center">
 </div>
 
+<!-- IMPORT partials/breadcrumbs-json-ld.tpl -->
+<!-- IMPORT partials/breadcrumbs.tpl -->
+
 <div class="d-flex flex-column gap-3" itemid="{url}" itemscope itemtype="https://schema.org/DiscussionForumPosting">
 	<meta itemprop="datePublished" content="{timestampISO}">
 	<meta itemprop="dateModified" content="{lastposttimeISO}">

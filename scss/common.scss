@@ -367,6 +367,7 @@ blockquote {
 }
 
 /* Category */
+
 /*
 span.icon {
 	width: 64px !important;
@@ -427,6 +428,10 @@ a.badge i {
 a.timeago {
 	background-color: transparent !important;
 	color: $purple-250 !important;
+}
+
+.category-header-badge {
+	background-color: #030922 !important;
 }
 
 /* Category - Game */

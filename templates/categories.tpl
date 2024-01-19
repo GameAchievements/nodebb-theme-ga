@@ -35,16 +35,16 @@
 						<i class="fa fa-lock fa-4x"></i>
 					</div>
 					<div class="flex-grow-1 d-flex flex-wrap gap-1">
-						<h2 class="title text-break text-uppercase fs-4 fw-semibold m-0 tracking-tight w-100">Premium</h2>
+						<h2 class="title text-break text-uppercase fs-4 fw-semibold m-0 tracking-tight w-100">Premium Section</h2>
 						<div class="description text-sm w-100">
-							This forum section is exclusive of Premium Members. 
-							This section includes discussion regarding premium features and other topics. 
+							This forum section is exclusive to Premium Members. 
+							It includes discussion regarding premium features and other topics. 
 							You can access it by becoming a Premium Member. This will give you premium benefits
 							 such as Forum Special Tags and Premium Section access.
 						</div>
 					</div>
 				</div>
-				<button type="button" class="mx-auto ga-hero-button join-button mt-2 border-0" onclick="location.href='https://gameachievements.net/'">Become premium</button>
+				<button type="button" class="mx-auto ga-hero-button join-button mt-2 border-0 px-5" onclick="location.href='https://gameachievements.net/'">Become premium</button>
 			</li>
 			{{{ end }}}
 		</ul>

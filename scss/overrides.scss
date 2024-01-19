@@ -175,7 +175,8 @@ $breadcrumb-item-padding-x: 12px !default;
 
 
 button.btn-primary {
-	padding: 8px !important;
+	/* padding: 8px !important; */
+	border: 0 !important;
 	border-radius: 20px !important;
 	color: $white !important;
 	background-color: $purple-700 !important;

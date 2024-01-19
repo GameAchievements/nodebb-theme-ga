@@ -1,0 +1,22 @@
+.template-groups-details #panel {
+	margin-top: 0px!important;
+}
+
+.group-hover-bg {
+	$hover-color: $purple-700;
+	$border-color: $purple-700;
+	.card-body {
+		border-color: $border-color!important;
+	}
+	&:hover {
+		background-color: $hover-color;
+	}
+}
+
+.groups.details {
+	margin-top: 200px;
+
+	@include media-breakpoint-up(md) {
+		margin-top: 300px;
+	}
+}

@@ -278,6 +278,11 @@ a[data-username], a[component="post/parent"], .timeline-text a, a.plugin-mention
 	margin-bottom: 10px;
 }
 
+// Unread titles color adjustment
+.skin-noskin ul.topics-list li.unread .title {
+	color: $purple-250;
+}
+
 /* Quotes */ 
 
 blockquote {

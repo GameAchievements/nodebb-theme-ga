@@ -1,8 +1,3 @@
-<div data-widget-area="header">
-	{{{ each widgets.header }}}
-	{{widgets.header.html}}
-	{{{ end }}}
-</div>
 <div class="container-fluid hero-main align-items-center">
     <div class="hero-container p-5">
         <h2 class="ga-header-2 text-uppercase text-white">Game Achievements</h1>
@@ -17,6 +12,11 @@
 		</div>
 		{{{ end }}}
     </div>
+</div>
+<div data-widget-area="header">
+	{{{ each widgets.header }}}
+	{{widgets.header.html}}
+	{{{ end }}}
 </div>
 <div class="row py-2">
 	<div class="{{{ if widgets.sidebar.length }}}col-lg-9 col-sm-12{{{ else }}}col-lg-12{{{ end }}}">

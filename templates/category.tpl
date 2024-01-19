@@ -24,9 +24,9 @@
 
 {{{ if (parent.name == "Games") }}}
 <div class="category-header d-flex flex-column gap-2 {{{ if (name == "Premium") }}}category-header-premium{{{ end }}}">
-	<div class="game-header-container my-5 mx-md-5">
+	<div class="game-header-container my-5 mx-5">
 		<div class="d-flex gap-2 align-items-center mb-2 w-100 {{{ if config.theme.centerHeaderElements }}}justify-content-center{{{ end }}}">
-			<h1 class="tracking-tight fs-2 fw-semibold mb-0 text-center text-uppercase"><span class="game-header-about">About</span> <span class="game-header-name">{./name}</span></h1>
+			<h1 class="tracking-tight fs-2 fw-semibold mb-0 text-uppercase"><span class="game-header-about">About</span> <span class="game-header-name">{./name}</span></h1>
 		</div>
 		<div class="description w-100 {{{ if config.theme.centerHeaderElements }}}text-center{{{ end }}}">
 			{./descriptionParsed}
@@ -54,7 +54,7 @@
 	{{{ if (name != "Premium") }}}
 	<div class="d-flex gap-2 align-items-center mb-1 {{{ if config.theme.centerHeaderElements }}}justify-content-center{{{ end }}}">
 		<!-- {buildCategoryIcon(@value, "40px", "rounded-1 flex-shrink-0")} -->
-		<h1 class="tracking-tight fs-2 fw-semibold mb-0 text-center text-uppercase">{./name}</h1>
+		<h1 class="tracking-tight fs-2 fw-semibold mb-0 text-uppercase">{./name}</h1>
 	</div>
 	{{{ end }}}
 	{{{ if (name == "Premium") }}}
@@ -62,6 +62,9 @@
 		<div class="description text-muted text-sm w-100 {{{ if config.theme.centerHeaderElements }}}text-center{{{ end }}}">
 			{./descriptionParsed}
 		</div>
+		<div class="d-flex gap-2 align-items-center mb-1 {{{ if config.theme.centerHeaderElements }}}justify-content-center{{{ end }}}">
+		<h1 class="tracking-tight fs-2 fw-semibold mb-0 text-uppercase">{./name}</h1>
+	</div>
 		{{{ end }}}
 	{{{ end }}}
 

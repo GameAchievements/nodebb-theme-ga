@@ -536,3 +536,10 @@ background-color: shade-color($purple-700, 10%) !important;
 	color: $white !important;
 }
 
+/* Alerts */
+
+.alert-info {
+	border-color: $purple-700;
+	color: white;
+	background-color: $purple-800;
+}

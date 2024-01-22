@@ -68,8 +68,13 @@ $navbar-active-color: $purple-200 !default;
 $nav-link-hover-color: $purple-200 !default;
 */
 
-.navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
+.navbar-nav .nav-link:active, .navbar-nav .nav-link.show, .text-header-selected {
 	color: $white !important;
+}
+
+#navbarSupportedContent .nav-item {
+	padding-top: 6px !important;
+	padding-bottom: 6px !important;
 }
 
 :root {
@@ -180,6 +185,7 @@ button.btn-primary {
 	border-radius: 20px !important;
 	color: $white !important;
 	background-color: $purple-700 !important;
+	box-shadow: none !important;
   }
 
   button.btn-primary:hover {

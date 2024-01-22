@@ -50,8 +50,9 @@ body {
 }
 
 .button-gradient-ga {
-	border-bottom: 2px solid #4659FF;
-	background: linear-gradient(0deg, #4659FF -14.38%, rgba(25, 31, 89, 0.00) 84.51%);
+	border-bottom: 2px solid $purple-700;
+	/* background: linear-gradient(0deg, #4659FF -14.38%, rgba(25, 31, 89, 0.00) 84.51%); */
+	background: linear-gradient(180deg, rgba(11,16,65,.04),rgba(70,89,255,.29) 61%,rgba(70,89,255,.55));
 }
 
 /*
@@ -368,15 +369,25 @@ blockquote {
 	height: auto;
 }
 
-.alt-logins a.btn {
-	padding: 8px 20px 8px 20px;
+.template-login .btn {
+	text-transform: uppercase;	
+	font-size: 16px;
+	font-weight: 700;
+	line-height: 19px;
+	letter-spacing: 1px;
+}
+
+#login-form a.btn, .alt-logins a.btn {
+	padding-left: 20px;
+	padding-right: 20px;
 	border-radius: 20px;
 	color: $white !important;
 	background-color: transparent !important;
 	border-color: $purple-700 !important;
+	box-shadow: none !important;
 }
 
-.alt-logins a.btn:hover {
+#login-form a.btn:hover, .alt-logins a.btn:hover {
 	background-color: shade-color($purple-700, 10%) !important;
 }
 

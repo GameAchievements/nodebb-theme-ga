@@ -178,16 +178,31 @@ $breadcrumb-item-padding-x: 12px !default;
 	background-color: $purple-700;
 }
 
-
-button.btn-primary {
+button.btn-primary, a.btn-primary {
 	/* padding: 8px !important; */
 	border: 0 !important;
 	border-radius: 20px !important;
 	color: $white !important;
 	background-color: $purple-700 !important;
 	box-shadow: none !important;
-  }
+}
 
-  button.btn-primary:hover {
+button.btn-primary:hover, a.btn-primary:hover {
 	background-color: shade-color($purple-700, 10%) !important;
-  }
+}
+
+.btn-group a.btn {
+	/* border-right: 0 !important; */
+	border-radius: 20px 0 0 20px !important;
+	color: $white !important;
+	background-color: $purple-700 !important;
+	box-shadow: none !important;
+}
+
+.btn-group button.btn {
+	border-radius: 0 20px 20px 0 !important;
+	color: $white !important;
+	background-color: $purple-700 !important;
+	box-shadow: none !important;
+}
+

@@ -294,6 +294,10 @@ blockquote {
 
 /* Quick Reply styles */
 
+.composer {
+	z-index: 2000 !important;
+}
+
 .composer-container {
 	background-color: $purple-800;
 	border: 1px;

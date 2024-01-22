@@ -81,9 +81,12 @@ body {
 	background-color: $purple-700;
 }
 
-.search-dropdown, .bottom-bar .search-dropdown {
+.search-dropdown {
 	width: 320px;
-	left: 100% !important;
+	right: 0 !important;
+	top: 55px !important;
+	border: 1px solid !important;
+	border-color: $purple-700 !important;
 }
 
 .button-gradient-ga {

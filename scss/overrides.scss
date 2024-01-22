@@ -61,6 +61,8 @@ $btn-ghost-active-color: lighten($btn-ghost-hover-color, 5%);
 $btn-ghost-hover-color-dark: mix($dark, $light, 90%);
 $btn-ghost-active-color-dark: lighten($btn-ghost-hover-color-dark, 5%);
 
+$btn-close-color: $white;
+
 $dropdown-link-hover-bg: $purple-400 !default;
 
 /*
@@ -137,46 +139,7 @@ $breadcrumb-item-padding-x: 12px !default;
 .text-purple-800 { color: $purple-800; }
 .text-purple-900 { color: $purple-900; }
 
-//styleName: Gantari/Headings/H2/Semibold;
-.ga-header-2 {
-	font-size: 52px;
-	font-weight: 600;
-	line-height: 62px;
-	letter-spacing: 0.08em;
-}
 
-//styleName: Gantari/Headings/H4/Bold;
-.ga-header-4-bold {
-	font-size: 32px;
-	font-weight: 700;
-	line-height: 38px;
-	letter-spacing: 0.06em;
-}
-
-//styleName: Gantari/Headings/H4/Regular;
-.ga-header-4-regular {
-	font-size: 32px;
-	font-weight: 400;
-	line-height: 38px;
-	letter-spacing: 0.06em;
-}
-
-//styleName: Gantari/Button/Bold;
-.ga-hero-button {
-	width: Hug(224px);
-	height: Hug(51px);
-	padding: 16px;
-	border-radius: 100px;
-	gap: 8px;
-	font-size: 16px;
-	font-weight: 700;
-	line-height: 19px;
-	letter-spacing: 1px;
-	text-align: center;
-	text-transform: uppercase;
-	color: white;
-	background-color: $purple-700;
-}
 
 button.btn-primary, a.btn-primary {
 	/* padding: 8px !important; */
@@ -191,7 +154,7 @@ button.btn-primary:hover, a.btn-primary:hover {
 	background-color: shade-color($purple-700, 10%) !important;
 }
 
-.btn-group a.btn {
+.topic-main-buttons .btn-group a.btn {
 	/* border-right: 0 !important; */
 	border-radius: 20px 0 0 20px !important;
 	color: $white !important;
@@ -199,10 +162,24 @@ button.btn-primary:hover, a.btn-primary:hover {
 	box-shadow: none !important;
 }
 
-.btn-group button.btn {
+.topic-main-buttons .btn-group button.btn {
 	border-radius: 0 20px 20px 0 !important;
 	color: $white !important;
 	background-color: $purple-700 !important;
 	box-shadow: none !important;
 }
 
+.modal-content th, .modal-content td, .modal-header button {
+	color: $white !important;
+}
+
+.modal-content .btn-secondary {
+	box-shadow: none;
+	background-color: transparent;
+	border-radius: 20px;
+	border-color: $purple-700 !important;
+}
+
+.modal-content .btn-secondary:hover {
+	background-color: shade-color($purple-700, 10%) !important;
+}

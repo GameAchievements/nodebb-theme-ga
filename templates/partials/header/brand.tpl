@@ -24,10 +24,10 @@
             Leaderboards <i class="fa-solid fa-chevron-down"></i>
           </a>
           <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
-            <li><a class="dropdown-item" href="#">GA Leaderboard</a></li>
-            <li><a class="dropdown-item" href="#">Playstation</a></li>
-			      <li><a class="dropdown-item" href="#">Steam</a></li>
-			      <li><a class="dropdown-item" href="#">Xbox</a></li>
+            <li><a class="dropdown-item" href="https://gameachievements.net/ga-leaderboard">GA Leaderboard</a></li>
+            <li><a class="dropdown-item" href="https://gameachievements.net/playstation-leaderboard">Playstation</a></li>
+			      <li><a class="dropdown-item" href="https://gameachievements.net/steam-leaderboard">Steam</a></li>
+			      <li><a class="dropdown-item" href="https://gameachievements.net/xbox-leaderboard">Xbox</a></li>
           </ul>
         </li>
 		<li class="nav-item button-header">

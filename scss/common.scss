@@ -25,6 +25,20 @@ body {
 	padding-bottom: 0px;
 }
 
+.navbar-nav a.active { 
+    color: $white; 
+}
+
+ul[aria-labelledby="navbarDropdown"] .dropdown-item {
+	text-transform: uppercase;
+	font-size: 16px;
+	font-weight: 700;
+	line-height: 19px;
+	letter-spacing: 1px;
+	padding-top: 16px;
+	padding-bottom: 16px;
+}
+
 .header-container {
 	padding-left: 20px;
 	padding-right: 20px;
@@ -84,7 +98,7 @@ body {
 .search-dropdown {
 	width: 320px;
 	right: 0 !important;
-	top: 55px !important;
+	top: 53px !important;
 	border: 1px solid !important;
 	border-color: $purple-700 !important;
 }

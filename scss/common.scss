@@ -444,15 +444,19 @@ blockquote {
 
 /* Category */
 
-/*
 span.icon {
-	width: 64px !important;
-	height: 95px !important;
-	border: solid 1px !important;
-	border-color: $purple-700 !important;
-	background-position: center;
+	background-color: transparent !important;
 }
-*/
+
+.game-category span.icon {
+	width: 64px;
+	height: 96px;
+	background-size: cover;
+	background-position: center;
+	border-radius: 0;
+	border: 1px solid $purple-700;
+	background-color: $purple-800 !important;
+}
 
 /* User Profile */
 .account {

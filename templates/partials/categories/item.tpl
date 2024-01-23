@@ -1,9 +1,17 @@
-<li component="categories/category" data-cid="{./cid}" class="w-100 my-4 p-3 py-3 py-lg-4 gap-lg-0 gap-2 rounded rounded-ga border border-1 border-ga bg-gradient-ga d-flex flex-column flex-lg-row align-items-start category-{./cid} {./unread-class}">
-	<meta itemprop="name" content="{./name}">
+<li component="categories/category" 
+	data-cid="{./cid}" 
+	class="w-100 my-4 p-3 py-3 py-lg-4 gap-lg-0 gap-2 rounded rounded-ga border border-1 border-ga bg-gradient-ga d-flex flex-column flex-lg-row align-items-start category-{./cid} {./unread-class} {{{ if (children.parent.name == "Games") }}}game-category{{{ end }}}">
+	<meta itemprop="name" content="{./name}" has-icon="{children.icon.length}">
 
 	<div class="d-flex col-lg-7 gap-2 gap-lg-3 align-content-center">
 		<div class="flex-shrink-0 my-auto">
-		{buildCategoryIcon(@value, "96px", "rounded-1")}
+
+		{{{ if (children.parent.name == "Games") }}}
+			<span class="icon d-inline-flex justify-content-center align-items-center align-middle" style="background-image: url({children.backgroundImage})"></span>		
+		{{{ else }}}
+			{buildCategoryIcon(@value, "96px", "rounded-1")}
+		{{{ end }}}
+
 		</div>
 		<div class="flex-grow-1 d-flex flex-wrap gap-1">
 			<h2 class="title text-break text-uppercase fs-4 fw-semibold m-0 tracking-tight w-100">

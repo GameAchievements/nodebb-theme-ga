@@ -471,6 +471,21 @@ span.icon {
 	background-image: linear-gradient(180deg, #030922 50%, #0B1041 100%);
 }
 
+.post-search-item a.btn {
+	box-shadow: none;
+	border: 1px solid $purple-700 !important;
+	background-color: transparent;
+	color: $white;
+}
+
+.post-search-item a.btn:hover {
+	background-color: shade-color($purple-700, 10%) !important;
+}
+
+.post-search-item a span.caret {
+	color: $gray-200 !important;
+}
+
 // Hide user theme settings (user settings are ignored by theme config)
 #theme {
 	display: none;
@@ -601,7 +616,7 @@ a.timeago {
 }
 
 .all-notifications-btn:hover, .chats-btn:hover {
-background-color: shade-color($purple-700, 10%) !important;
+	background-color: shade-color($purple-700, 10%) !important;
 }
   
 

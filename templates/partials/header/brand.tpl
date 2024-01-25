@@ -13,29 +13,28 @@
         <li class="nav-item button-header">
           <a href="https://gameachievements.net/games" class="fs-6 fw-bold text-uppercase p-3 nav-link">Games</a>
         </li>
-        <li class="nav-item button-header">
-          <a href="https://gameachievements.net/achievements" class="fs-6 fw-bold text-uppercase p-3 nav-link">Achievements</a>
-        </li>
-		<li class="nav-item button-header">
-          <a href="https://gameachievements.net/guides" class="fs-6 fw-bold text-uppercase p-3 nav-link">Guides</a>
-        </li>
         <li class="nav-item dropdown button-header">
-          <a class="nav-link dropdown-toggle fs-6 fw-bold text-uppercase p-3 nav-link" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            Leaderboards <i class="fa-solid fa-chevron-down"></i>
-          </a>
-          <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
-            <li><a class="dropdown-item" href="https://gameachievements.net/ga-leaderboard">GA Leaderboard</a></li>
-            <li><a class="dropdown-item" href="https://gameachievements.net/playstation-leaderboard">Playstation</a></li>
-			      <li><a class="dropdown-item" href="https://gameachievements.net/steam-leaderboard">Steam</a></li>
-			      <li><a class="dropdown-item" href="https://gameachievements.net/xbox-leaderboard">Xbox</a></li>
-          </ul>
+            <a class="nav-link dropdown-toggle fs-6 fw-bold text-uppercase p-3 nav-link" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Leaderboards <i class="fa-solid fa-chevron-down"></i>
+            </a>
+            <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="https://gameachievements.net/ga-leaderboard">GA Leaderboard</a></li>
+              <li><a class="dropdown-item" href="https://gameachievements.net/playstation-leaderboard">Playstation</a></li>
+              <li><a class="dropdown-item" href="https://gameachievements.net/steam-leaderboard">Steam</a></li>
+              <li><a class="dropdown-item" href="https://gameachievements.net/xbox-leaderboard">Xbox</a></li>
+            </ul>
         </li>
-		<li class="nav-item button-header">
-          <a href="https://gameachievements.net/news" class="fs-6 fw-bold text-uppercase p-3 mb-0 nav-link">News</a>
-       
+        <li class="nav-item button-header">
+              <a href="https://gameachievements.net/achievements" class="fs-6 fw-bold text-uppercase p-3 nav-link">Achievements</a>
+        </li>
+		    <li class="nav-item button-header">
+              <a href="https://gameachievements.net/guides" class="fs-6 fw-bold text-uppercase p-3 nav-link">Guides</a>
+        </li>      
+        <li class="nav-item button-header">
+              <a href="https://gameachievements.net/news" class="fs-6 fw-bold text-uppercase p-3 mb-0 nav-link">News</a>
         <li class="nav-item button-header button-gradient-ga">
-		<a href="{{{ if brand:logo:url }}}{brand:logo:url}{{{ else }}}{relative_path}/{{{ end }}}" class="fs-6 fw-bold text-uppercase mb-0 p-3 text-header-selected nav-link">Forums</a>
-     </li>
+              <a href="{{{ if brand:logo:url }}}{brand:logo:url}{{{ else }}}{relative_path}/{{{ end }}}" class="fs-6 fw-bold text-uppercase mb-0 p-3 text-header-selected nav-link">Forums</a>
+        </li>
       </ul>
 
       <div class="d-flex gap-4 align-items-center justify-content-between p-3">

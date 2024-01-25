@@ -657,3 +657,7 @@ a.timeago {
 	border-color: $purple-700;
 	background-color: $purple-800;
 }
+
+.alert-window {
+	z-index: 3000 !important;
+}

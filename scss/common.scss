@@ -103,6 +103,12 @@ ul[aria-labelledby="navbarDropdown"] .dropdown-item {
 	border-color: $purple-700 !important;
 }
 
+#user-control-list {
+	top: 53px !important;
+	border: 1px solid !important;
+	border-color: $purple-700 !important;
+}
+
 @media screen and (max-width: 1399px) {
 	.search-dropdown {
 		left: 100% !important;

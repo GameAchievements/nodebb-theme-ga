@@ -40,7 +40,7 @@
       <div class="d-flex gap-4 align-items-center justify-content-between p-3">
       {{{ if config.loggedIn }}}
         <!-- IMPORT partials/header/user-wrapper.tpl -->
-        <a class="me-4">{buildAvatar(user, "32px", true)}</a>
+          {buildAvatar(user, "32px", true)}
           <li class="nav-item dropdown" style="list-style-type: none">
             <a class="nav-link dropdown-toggle fs-6 fw-bold text-uppercase text-header" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
               {user.username} <i class="fa-solid fa-chevron-down"></i>
